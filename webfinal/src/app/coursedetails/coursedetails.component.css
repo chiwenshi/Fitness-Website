@@ -1,0 +1,37 @@
+.container {
+  margin-top: 0px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 20px; }
+
+.alldetail {
+  background-image: url("../../assets/login-back.jpg");
+  background-color: #343a40;
+  background-blend-mode: multiply;
+  opacity: 0.85;
+  color: white;
+  font-family: 'Jura', sans-serif; }
+  .star {
+    font-size: 1.5rem;
+    color: #b0c4de;
+  }
+  .filled {
+    color: #1e90ff;
+  }
+  .bad {
+    color: #deb0b0;
+  }
+  .filled.bad {
+    color: #ff1e1e;
+  }
+pre{
+    font-size: 200%;
+
+  }
+.jumbotron{
+  background-size:100% 100%;
+}
+  /* b{
+    font-family: 'Kaushan Script', cursive;
+  } */
+/*# sourceMappingURL=coursedetails.component.css.map */

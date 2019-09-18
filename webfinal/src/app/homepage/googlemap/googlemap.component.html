@@ -1,0 +1,12 @@
+<div class="maps">
+  <h1 class="clickmap">
+    Click the Map to Select WHERE YOU ARE !!
+  </h1>
+
+  <div class="googlmap">
+    <agm-map [latitude]="lat" [longitude]="lng" (mapClick)="onChoseLocation($event)">
+      <agm-marker [latitude]="lat" [longitude]="lng" *ngIf="locationChosen"></agm-marker>
+    </agm-map>
+  </div>
+
+</div>

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACT,gBAAgB,EAAE,qCAAqC;EACvD,gBAAgB,EAAE,OAAO;EACzB,qBAAqB,EAAE,QAAQ;EAC/B,OAAO,EAAC,IAAI;EACZ,WAAW,EAAE,kBAAkB;EAC/B,UAAU,EAAE,MAAM;;AAGpB,UAAC;EACC,aAAa,EAAE,CAAC;EAChB,cAAc,EAAE,IAAI;EACpB,KAAK,EAAE,KAAK;;AAGd,EAAE;EACA,WAAW,EAAE,IAAI;EACjB,KAAK,EAAG,OAAO;;AAGjB,OAAO;EAEL,SAAS,EAAE,IAAI",
+"sources": ["blogdetails.component.scss"],
+"names": [],
+"file": "blogdetails.component.css"
+}

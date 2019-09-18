@@ -1,0 +1,30 @@
+
+  <div class="row">
+    <div class="col-4">
+      <div class="search">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="searchname" name="search">
+          <button class="btn btn-light my-2 my-sm-0" type="submit" (click)='search()'>Search</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="text-center">
+        <div class="logo" (click)='gohome()'>
+          <p >MOVE ON</p>
+        </div>
+      </div>
+    </div>
+
+      <div class="col">
+        <div class="loginbtn">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button *ngIf="!this.userService.isloggedin" type="button" class="btn btn-light" routerLink='/login'>LOG IN</button>
+            <button *ngIf="!this.userService.isloggedin" type="button" class="btn btn-light" routerLink='/register'>REGISTER</button>
+            <button *ngIf="this.userService.isloggedin" type="button" class="btn btn-light">{{this.userService.loggeduser.username}}</button>
+            <button *ngIf="this.userService.isloggedin" type="button" class="btn btn-light" (click)='logout()'>LOG OUT</button>
+          </div>
+        </div>
+      </div>
+  </div>

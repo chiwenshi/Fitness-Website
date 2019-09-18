@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,gBAAgB,EAAE,qCAAqC;EACvD,gBAAgB,EAAE,OAAO;EACzB,qBAAqB,EAAE,QAAQ;EAC/B,OAAO,EAAC,IAAI;EACZ,OAAO,EAAE,CAAC",
+"sources": ["mycourses.component.scss"],
+"names": [],
+"file": "mycourses.component.css"
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,aAAa,EAAC,CAAC;EACf,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,MAAM,EAAC,OAAO;;AAIhB,SAAS;EACP,UAAU,EAAE,CAAC;EACb,gBAAgB,EAAE,kCAAkC;EACpD,gBAAgB,EAAE,OAAO;EACzB,qBAAqB,EAAE,QAAQ;EAC/B,OAAO,EAAC,IAAI;EACZ,WAAW,EAAE,kBAAkB",
+"sources": ["training.component.scss"],
+"names": [],
+"file": "training.component.css"
+}

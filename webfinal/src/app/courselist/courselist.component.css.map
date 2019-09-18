@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAa;EACT,MAAM,EAAE,OAAO;;AAGnB,WAAW;EACT,gBAAgB,EAAE,kCAAkC;EACpD,gBAAgB,EAAE,OAAO;EACzB,qBAAqB,EAAE,QAAQ;EAC/B,OAAO,EAAC,IAAI;EACZ,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,aAAa,EAAE,CAAC;EAChB,WAAW,EAAE,kBAAkB;;AAGjC,MAAM;EACJ,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI",
+"sources": ["courselist.component.scss"],
+"names": [],
+"file": "courselist.component.css"
+}

@@ -1,0 +1,26 @@
+.maps{
+  background-image: url("../../../assets/login-back.jpg");
+  background-color: #343a40;
+  background-blend-mode: multiply;
+  opacity:0.85;
+  padding-bottom: 20px;
+}
+
+.clickmap{
+  font-family: Arial;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  background-image: url("../../../assets/login-back.jpg");
+  background-color: #343a40;
+  background-blend-mode: multiply;
+  opacity:0.85;
+  font-family: 'Jura', sans-serif;
+}
+
+agm-map{
+  height: 600px;
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAQ;EACN,gBAAgB,EAAE,qCAAqC;EACvD,gBAAgB,EAAE,OAAO;EACzB,qBAAqB,EAAE,QAAQ;EAC/B,OAAO,EAAC,IAAI;EACZ,OAAO,EAAE,CAAC",
+"sources": ["mydiet.component.scss"],
+"names": [],
+"file": "mydiet.component.css"
+}

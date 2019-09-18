@@ -1,0 +1,11 @@
+<form class="loginform">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email Address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" [(ngModel)]="user.email" name="email">
+  </div>
+  <div class="form-group" id="passgroup">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" [(ngModel)]="user.password" name="password">
+  </div>
+  <button type="submit" id="submitbtn" class="btn btn-dark" (click)='submit()'>Log In</button>
+</form>

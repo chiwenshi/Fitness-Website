@@ -1,0 +1,43 @@
+$margin: 60px;
+$margin-bottom: 10px;
+$background-color: #343a40;
+$display: inline-block;
+
+.search{
+  margin-top: $margin;
+  margin-left: $margin;
+  margin-bottom: $margin-bottom;
+}
+
+.logo{
+  color: #ffffff;
+  font-size: 85px;
+  margin-top: 10px;
+  font-style: italic;
+  font-family: 'Fredericka the Great', cursive;
+  letter-spacing:4px;
+  text-shadow: 2px 2px 3px #e6e6e6;
+}
+
+.loginbtn{
+  margin-top: $margin;
+  margin-left: $margin+40px;
+  width: 70px;
+  font-family: 'Jura', sans-serif;
+}
+
+.search{
+  font-family: 'Jura', sans-serif;
+}
+
+.row{
+  width: 100%;
+  background-image: url("../../assets/login-back.jpg");
+  background-color: #343a40;
+  background-blend-mode: multiply;
+  opacity:0.85;
+  margin: 0px;
+
+}
+
+

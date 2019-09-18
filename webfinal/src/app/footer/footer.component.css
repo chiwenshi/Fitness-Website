@@ -1,0 +1,9 @@
+.footerall {
+  background-image: url("../../assets/login-back.jpg");
+  background-color: #343a40;
+  background-blend-mode: multiply;
+  opacity: 0.85;
+  font-family: 'Jura', sans-serif;
+  color: white; }
+
+/*# sourceMappingURL=footer.component.css.map */

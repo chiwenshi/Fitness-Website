@@ -1,0 +1,25 @@
+<div class="allcourse">
+<div class="album py-5">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4" *ngFor = 'let course of courselist'>
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="{{course.img}}" alt="Card image cap" routerLink="/course/{{course.id}}">
+            <div class="card-body">
+              <h3>{{course.name}}</h3>
+              <p class="card-text">{{course.name}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" routerLink="/course/{{course.id}}">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"(click)="deleteCourse(course)">Delete</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

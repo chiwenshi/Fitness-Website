@@ -1,0 +1,26 @@
+<div class="detailcard">
+  <div class="cards">
+    <div class="card-deck">
+      <div *ngFor="let course of courselist" class="card" width="150" height="100">
+        <img class="card-img-top" src="{{course.img}}" alt="Card image cap" routerLink='/course/{{category}}/{{course._id}}'>
+        <div class="card-body">
+          <h5 class="card-title">{{course.name}}</h5>
+          <p class="card-text">{{course.introduction}}</p>
+          <a href="#" class="btn btn-dark" routerLink='/course/{{category}}/{{course._id}}'>See Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cards" *ngIf='!this.category'>
+      <div class="card-deck">
+        <div *ngFor="let course of this.courseService.result" class="card" width="150" height="100">
+          <img class="card-img-top"  src="{{course.img}}" alt="Card image cap" routerLink='/course/{{category}}/{{course._id}}'>
+          <div class="card-body">
+            <h5 class="card-title">{{course.name}}</h5>
+            <p class="card-text">{{course.introduction}}</p>
+            <a href="#" class="btn btn-dark" routerLink='/course/{{category}}/{{course._id}}'>See Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

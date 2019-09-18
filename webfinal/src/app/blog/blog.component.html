@@ -1,0 +1,23 @@
+<div class="wrap">
+  	<div id="left" *ngFor='let blog of bloglist'>
+			<h2><a routerLink="/blog/{{blog.id}}/details">{{blog.title}}</a></h2>
+			<p class="par">{{blog.content}}</p>
+		</div>
+
+<div class="newblog">
+    <form>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Title</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" [(ngModel)]="newblog.title" name="title">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" [(ngModel)]="newblog.content" name="content"></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark" (click)="addBlog()">Submit</button>
+    </form>
+   </div>
+  </div>

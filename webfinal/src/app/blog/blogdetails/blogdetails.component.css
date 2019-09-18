@@ -1,0 +1,21 @@
+.blogdetail {
+  background-image: url("../../../assets/login-back.jpg");
+  background-color: #343a40;
+  background-blend-mode: multiply;
+  opacity: 0.85;
+  font-family: 'Jura', sans-serif;
+  text-align: center; }
+
+p, .author {
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  color: white; }
+
+h1 {
+  padding-top: 20px;
+  color: #008ae6; }
+
+.author {
+  font-size: 20px; }
+
+/*# sourceMappingURL=blogdetails.component.css.map */

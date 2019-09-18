@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACP,gBAAgB,EAAE,kCAAkC;EACpD,gBAAgB,EAAE,OAAO;EACzB,qBAAqB,EAAE,QAAQ;EAC/B,OAAO,EAAC,IAAI;EACZ,WAAW,EAAE,kBAAkB;EAC/B,WAAW,EAAE,IAAI;;AAGnB,KAAK;EACH,KAAK,EAAE,GAAG;EACV,aAAa,EAAE,CAAC;EAChB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,UAAU,EAAE,IAAI",
+"sources": ["equipment.component.scss"],
+"names": [],
+"file": "equipment.component.css"
+}

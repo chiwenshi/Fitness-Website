@@ -1,0 +1,25 @@
+<div class="alldiet">
+  <div class="album py-5">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4" *ngFor = 'let diet of dietlist'>
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="{{diet.pic}}" alt="Card image cap">
+              <div class="card-body">
+                <h3>{{diet.name}}</h3>
+                <p class="card-text">{{diet.introduction}}</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"(click)='deleteDiet(diet)'>Delete</button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</div>

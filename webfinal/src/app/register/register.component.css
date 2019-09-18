@@ -1,0 +1,16 @@
+.allforms {
+  background-image: url("../../assets/login-back.jpg");
+  background-color: #343a40;
+  background-blend-mode: multiply;
+  opacity: 0.85;
+  font-family: 'Jura', sans-serif; }
+
+.textpart {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: white; }
+
+/*# sourceMappingURL=register.component.css.map */
